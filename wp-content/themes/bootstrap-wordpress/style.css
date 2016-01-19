@@ -1,0 +1,274 @@
+/*
+Theme Name: Bootstrap 3.1.1 Starter Wordpress theme
+Author: 3sparks llc
+Author URI: http://3sparks.net/
+Description: This is a blank bootstrap 3.1.1 theme for wordpress. Feel free to use this as a starter template for your projects.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*Wordpress editor styles start*/
+
+.entry-content img {
+    margin: 0 0 1.5em 0;
+}
+
+.alignleft, img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left;
+}
+
+.alignright, img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right;
+}
+
+.aligncenter, img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
+}
+
+.alignnone, img.alignnone {
+    /* not sure about this one */
+}
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+}
+
+.wp-caption p.wp-caption-text {
+    line-height: 1.5;
+    font-size: 10px;
+    margin: 0;
+}
+
+.wp-smiley {
+    margin: 0 !important;
+    max-height: 1em;
+}
+
+blockquote.left {
+    margin-right: 20px;
+    text-align: right;
+    margin-left: 0;
+    width: 33%;
+    float: left;
+}
+
+blockquote.right {
+    margin-left: 20px;
+    text-align: left;
+    margin-right: 0;
+    width: 33%;
+    float: right;
+}
+
+.blue, body {
+    background: #39AEED;
+}
+
+.black, header nav.navbar ul.nav li:hover {
+    background: #000000;
+}
+
+.white, div.cover-background .cover-background-scroll-down:hover, main .container {
+    background: #FFFFFF;
+}
+
+.black-transparent, header nav.navbar ul.nav li, header nav.navbar-default, main .cover-background .cover-background-caption {
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    zoom: 1;
+}
+
+.white-transparent, div.cover-background .cover-background-scroll-down {
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF);
+    zoom: 1;
+}
+
+.text-blue, header nav.navbar .navbar-brand:hover .hover-text-blue {
+    color: #39AEED;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-white, header nav.navbar .navbar-brand, header nav.navbar .navbar-brand:hover, header nav.navbar ul.nav li a, header nav.navbar ul.nav li:hover a, main .cover-background .cover-background-caption {
+    color: #FFFFFF;
+}
+
+.border-white, div.cover-background .cover-background-scroll-down {
+    border: 3px solid #FFFFFF;
+}
+
+.border-black, main .cover-background .cover-background-caption {
+    border: 3px solid #000000;
+}
+
+a {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+}
+
+img.cover-image {
+    width: 100%;
+}
+
+div.cover-background {
+    background-image: url("");
+    background-position-y: center;
+    background-position-x: center;
+    background: no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.cover-background .cover-background-caption {
+    position: absolute;
+}
+
+div.cover-background .cover-background-scroll-down {
+    -webkit-transition: background 0.4s ease;
+    -moz-transition: background 0.4s ease;
+    -ms-transition: background 0.4s ease;
+    -o-transition: background 0.4s ease;
+    transition: background 0.4s ease;
+    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
+    font-size: 20px;
+    font-size: 1.25rem;
+    width: 120px;
+    width: 7.5rem;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -60px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.margin-vertical-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html, body {
+    font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+header nav.navbar {
+    min-height: 80px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+header nav.navbar .navbar-brand {
+    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 50px;
+    line-height: 3.125rem;
+    height: 80px;
+    height: 5rem;
+    padding-left: 15px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 15px;
+}
+
+header nav.navbar .navbar-brand .hover-text-blue {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+}
+
+header nav.navbar ul.nav li {
+    font-size: 18px;
+    font-size: 1.125rem;
+    -webkit-transition: background 0.4s ease;
+    -moz-transition: background 0.4s ease;
+    -ms-transition: background 0.4s ease;
+    -o-transition: background 0.4s ease;
+    transition: background 0.4s ease;
+}
+
+header nav.navbar ul.nav li a {
+    padding: 30px 50px;
+    padding: 1.875rem 3.125rem;
+}
+
+header nav.navbar-default {
+    border: none;
+}
+
+main {
+    padding-top: 0;
+}
+
+main .cover-background {
+    position: relative;
+}
+
+main .cover-background .cover-background-caption {
+    top: 20px;
+    top: 1.25rem;
+    left: 20px;
+    left: 1.25rem;
+    padding: 20px;
+    padding: 1.25rem;
+}
+
+main .cover-background .cover-background-scroll-down {
+    bottom: 20px;
+    bottom: 1.25rem;
+    left: 50%;
+}
+
+main.full-height, div.full-height {
+    min-height: 100%;
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*Wordpress editor styles end*/
+
